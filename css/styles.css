@@ -1,0 +1,142 @@
+/* :root {} */
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body,html {
+	
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after,
+.clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+html {
+	scroll-behavior: smooth;
+}
+
+main{
+	background: url('../images/bg.jpg');
+}
+
+.header {
+	height: 100vh;
+	width: auto;
+	background: url('../images/header.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 75px;
+	margin-bottom: 135px;
+}
+
+
+.logo .col-md-12 {
+	height: 135px;
+	background: url('../images/logo1.jpg') no-repeat center;
+	margin-bottom: 185px;
+}
+
+
+.slogan h1 {
+	text-align: center;
+	font: 80px "Epilogue", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.slogan p {
+	text-align: center;
+	color: #fff;
+	font: 18px "Epilogue", sans-serif;
+	font-weight: 400;
+	line-height: 2;
+}
+
+.slogan {
+	margin-bottom: 30px;
+}
+
+.col-md-12 .pict {
+	display: block;
+	height: 45px;
+	background: url('../images/logo2.jpg') no-repeat center;
+}
+
+.sfirst {
+	margin: 0px 15% 0px;
+}
+
+.sfirst h1 {
+	text-align: center;
+	font: 48px "Epilogue", sans-serif;
+	margin-bottom: 70px;
+	font-weight: bold;
+}
+
+.sfirst p {
+	text-align: center;
+	font: 30px "Epilogue", sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+main .col-md-12 {
+	margin: auto;
+}
+
+.disc {
+	margin-bottom: 130px;
+}
+
+.ssecond {
+	margin-bottom: 30px;
+}
+
+.ssecond h1 {
+	font: 60px "Epilogue", sans-serif;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 115px;
+}
+
+
+
+.type h2 {
+	font: 18px "Epilogue", sans-serif;
+	font-weight: 700;
+	margin-bottom: 33px;
+
+}
+
+.type p {
+	color: #888a8b;
+	font-weight: 400;
+	font: 18px "Epilogue", sans-serif;
+	line-height: 1.8;
+}
+
+.end {
+	margin-bottom: 100px;
+}
+
